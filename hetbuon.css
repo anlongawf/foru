@@ -14,20 +14,22 @@ body {
   text-align: center;
 }
 
-.content {
-  padding: 20px;
+h1.hetbuon1 {
+  font-size: 2em;
+  margin: 20px;
+  width: 100vh;
+  color: #444;
 }
 
-.content h1 {
-  font-size: 2.5em;
-  margin-bottom: 20px;
+h2.hetbuon2 {
+  font-size: 1.5em;
+  margin: 20px;
+  color: #666;
 }
 
-.desc,
-.sub-desc {
-  font-size: 1.2em;
-  margin-bottom: 10px;
-  color: #555;
+h1.hetbuon1 strong,
+h2.hetbuon2 strong {
+  color: #ff6347; /* Tomato color for emphasis */
 }
 
 .cat {
@@ -46,7 +48,7 @@ body {
   transform: scale(1.05);
 }
 
-.cat p {
+.cat .hetbuon {
   margin-top: 10px;
   font-size: 1em;
   color: #777;

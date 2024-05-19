@@ -30,6 +30,11 @@ body {
   color: #555;
 }
 
+.sub-desc .highlight {
+  font-style: italic;
+  color: #ff6347; /* Tomato color to make the text stand out */
+}
+
 .cat {
   margin-top: 20px;
 }
