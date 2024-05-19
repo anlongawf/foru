@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Poppins:wght@400;500&display=swap');
+body {
+  background-image: url('path/to/your/image.jpg');
+  background-size: cover;
+  background-position: center;
+  background-attachment: fixed;
+  background-color: rgba(255, 255, 255, 0.7);
+  background-blend-mode: overlay;
+  font-family: 'Poppins', sans-serif;
+}
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  text-align: center;
+  position: relative;
+}
+.cat img {
+  position: relative;
+  width: 3rem;
+  bottom: 1.5rem;
+}
+.cat {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%);
+}
+.cat p {
+  width: 250px;
+  position: absolute;
+  left: -7rem;
+  top: 3rem;
+}
+.down {
+  width: 1rem;
+}
+.taolao {
+  font-family: 'Times New Roman', Times, serif; /* Sử dụng font chữ đẹp */
+  font-size: 18px; /* Tăng kích thước chữ */
+  line-height: 1.5; /* Tăng khoảng cách giữa các dòng */
+  text-align: justify; /* Căn đều hai bên đoạn văn */
+  text-indent: 30px; /* Thụt đầu dòng đầu tiên */
+  color: #333; /* Màu chữ đen nhạt */
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  text-align: center;
+}
+.taolao {
+  color: #4d5768; /* Màu xám đậm */
+}
+/* Font chữ */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background-color: #f5f5f5;
+  color: #333;
+  line-height: 1.6;
+  text-align: center;
+}
+
+/* Tiêu đề */
+h1 {
+  font-size: rem;
+  margin-bottom: 1rem;
+  color: #e74c3c;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.desc,
+.sub-desc {
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+}
+
+/* Hình ảnh */
+.cat img {
+  max-width: 300px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.cat img:hover {
+  transform: scale(1.1);
+}
+
+/* Liên kết */
+a {
+  color: #e74c3c;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #c0392b;
+}
+
+/* Căn giữa nội dung */
+.content,
+.cat {
+  max-width: 800px;
+  /* margin: 2rem auto; */
+  padding: 0rem;
+}
+
+/* Phần tử h1 với class taolao */
+h1.taolao {
+  font-family: 'Playfair Display', serif;
+  font-size: 2.5rem;
+  color: #6b5b95;
+  text-align: center;
+  line-height: 1.4;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+/* Phần tử h2 với class taolao2 */
+h2.taolao2 {
+  font-family: 'Lora', serif;
+  font-size: 1.8rem;
+  color: #5d6d7e;
+  line-height: 1.6;
+  margin: 0rem 0;
+  text-align: center;
+  font-style: italic; /* Chữ nghiêng */
+}
+
+/* Phần tử h2 với class taolao3 */
+h2.taolao3 {
+  font-family: 'Satisfy', cursive; /* Font chữ viết tay đẹp */
+  font-size: 2rem;
+  color: #8d6e63; /* Màu nâu đất */
+  line-height: 1.8;
+  margin: 1rem 0;
+  text-align: right; /* Căn phải */
+}
+
+.main {
+}
+strong {
+  font-family: 'Playfair Display', serif; /* Sử dụng font chữ đẹp */
+  font-size: 2rem; /* Kích thước chữ lớn */
+  color: #b8336a; /* Màu hồng đẹp */
+  background-color: #fff0f5; /* Nền màu hồng nhạt */
+  padding: 0.5rem 1rem; /* Khoảng cách giữa chữ và background */
+  border-radius: 5px; /* Bo tròn góc */
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Đổ bóng nhẹ */
+  transition: all 0.3s ease; /* Hiệu ứng chuyển động mượt */
+}
+
+.sub-desc {
+  margin-bottom: 50px;
+}
+h1.hetbuon1 {
+  font-family: 'Playfair Display', serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #e67e22; /* Màu cam đẹp */
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.2);
+  margin-bottom: 1rem;
+}
+
+h2.hetbuon2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 2rem;
+  font-weight: 400; /* Font-weight nhẹ hơn */
+  color: #7e5109; /* Màu nâu gỗ */
+  margin-bottom: 2rem;
+  text-decoration: underline; /* Gạch chân */
+  text-decoration-style: wavy; /* Kiểu gạch chân là sóng */
+}
+
+/* albul */

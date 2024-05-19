@@ -1,0 +1,91 @@
+body {
+  background-color: #f8f8f8;
+  background-image: linear-gradient(
+    135deg,
+    rgba(255, 255, 255, 0.8) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.8) 50%,
+    rgba(255, 255, 255, 0.8) 75%,
+    transparent 75%,
+    transparent
+  );
+  position: relative;
+  background-size: 40px 40px;
+}
+
+.album {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.tn {
+  font-family: 'Playfair Display', serif;
+  font-size: 1.5rem;
+  color: #6b5b95;
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.album {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  justify-content: center;
+}
+
+.album img {
+  text-align: center;
+  width: 80%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+  transition: transform 0.3s ease;
+}
+
+.album img:hover {
+  transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+  .album {
+    grid-template-columns: 1fr;
+  }
+}
+
+.album1 {
+  position: absolute;
+  display: flex;
+  width: 190px;
+  left: 15%;
+  border-radius: 20px;
+}
+
+.album2 {
+  left: 5%;
+  top: 17rem;
+  position: absolute;
+  display: flex;
+  width: 190px;
+}
+.subdesc {
+  top: 30rem;
+  position: absolute;
+  left: 17%;
+}
+.tn {
+  left: 55%;
+  top: 32rem;
+  position: absolute;
+  width: 40px;
+  font-size: 10px;
+}
+.desc {
+  top: 33rem;
+  position: absolute;
+  left: 17%;
+  width: 100px;
+}
